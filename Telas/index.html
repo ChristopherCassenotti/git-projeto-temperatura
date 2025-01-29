@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/index-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="pesquisa-local">
+            <input type="text" placeholder="Digite sua cidade" required>
+            <button id="scearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="informacoes-temp">
+            <div class="cidade">
+                <i id="icon-local" class="fa-solid fa-location-dot"></i>
+                <span id="city">Porto União</span>
+                <img src="" alt="bandeira do país" id="country">
+                
+            </div>    
+            <p id="temperatura"><span>28</span>&deg;C</p>
+        </div>    
+            <div class="descricao">
+                <span id="clima">nublado</span>
+                <img src="" alt="clima" id="icone-clima">
+
+                <p class="umidade">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>25%</span>
+                </p>
+                <p class="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>5km/h</span>
+                </p>
+            </div>
+    </div>
+</body>
+<script src="../Script/index-script.js" defer></script>
+</html>

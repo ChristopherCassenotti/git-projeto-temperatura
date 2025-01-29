@@ -2,12 +2,14 @@ Dashbord interativo com dados em tempo real
 
 Tema: Mostrar o clima local.
 O que tem que conter ?
-	Temperatura Atual
-	Previsão de temperatura
-	Chuva
-	Umidade
-	Horário
-	Tema light/dark
+	Barra de pesquisa
+	Local
+	Bandeira
+	graus
+	clima
+	img do clima
+	umidade
+	vento
     
 Como fazer?
 	Começar fazendo um esboço de como o site tem que parecer
