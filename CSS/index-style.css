@@ -34,7 +34,7 @@ body::before {
 .container {
     background-color: #1C1C1C;
     width: 500px;
-    height: 550px;
+    height: auto;
     border-radius: 15px;
     box-shadow: 3px 3px 20px 0px black;
     display: flex;
@@ -87,7 +87,7 @@ body::before {
 
 /* Informações da cidade e bandeira */
 .informacoes-temp {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,12 +108,13 @@ body::before {
 
 /* Informações do tempo */
 .descricao {
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     font-size: 20px;
+    text-transform: capitalize;
 }
 
 .descricao img {
@@ -125,4 +126,41 @@ body::before {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+/*antes da primeira procura*/
+.hide{
+    background-color: #1C1C1C;
+    width: 500px;
+    height: 80px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.hide_pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+.hide_pesquisa input {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.hide_pesquisa button {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
 }

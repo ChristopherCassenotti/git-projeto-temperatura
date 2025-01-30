@@ -8,35 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <div class="pesquisa-local">
+    <div id="container" class="hide">
+        <div id="barra_pesquisa" class="hide_pesquisa">
             <input id="city-input" type="text" placeholder="Digite sua cidade" required>
             <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-        <span class="line"></span>
-        <div class="informacoes-temp">
-            <div class="cidade">
-                <i id="icon-local" class="fa-solid fa-location-dot"></i>
-                <span id="city">Porto União</span>
-                <img src="https://flagcdn.com/w80/br.png" width="50px" height="35px" alt="a" id="country">    
-            </div>    
-        </div>    
-            <div class="descricao">
-                <p><span id="temperatura">28</span>&deg;C</p>
+            
+                <span class="line"></span>
+                <div class="informacoes-temp">
+                    <div class="cidade">
+                        <i id="icon-local" class="fa-solid fa-location-dot"></i>
+                        <span id="city"></span>
+                        <img src="" width="50px" height="35px" alt="a" id="country">    
+                    </div>    
+                </div>    
+                    <div class="descricao">
+                        <p><span id="temperatura"></span>&deg;C</p>
 
-                <span id="clima">nublado</span>
+                        <span id="clima"></span>
 
-                <img src="http://openweathermap.org/img/wn/03d@2x.png" width="70px" height="70px" alt="clima" id="icone-clima">
+                        <img src="" width="70px" height="70px" alt="clima" id="icone-clima">
 
-                <p class="umidade">
-                    <i class="fa-solid fa-droplet"></i>
-                    <span id="umidade">25%</span>
-                </p>
-                <p class="vento">
-                    <i class="fa-solid fa-wind"></i>
-                    <span id="vento">5km/h</span>
-                </p>
-            </div>
+                        <p class="umidade">
+                            <i class="fa-solid fa-droplet"></i>
+                            <span id="umidade"></span>
+                        </p>
+                        <p class="vento">
+                            <i class="fa-solid fa-wind"></i>
+                            <span id="vento"></span>
+                        </p>
+                    </div>
+            
     </div>
 </body>
 <script src="Script/index-script.js" defer></script>

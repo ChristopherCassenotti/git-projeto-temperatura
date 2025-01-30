@@ -14,6 +14,8 @@ const countryFlag = document.querySelector("#country");
 const umidade = document.querySelector("#umidade");
 const windSpeed = document.querySelector("#vento");
 
+const barra_pesquisa = document.querySelector("#barra_pesquisa");
+const container = document.querySelector("#container")
 
 // Funções
 const consultarDadosAPI = async(city) =>{
@@ -35,7 +37,13 @@ const attInformacoes =  async (city) => {
     countryFlag.setAttribute("src", `https://flagcdn.com/w80/${data.sys.country.toLowerCase()}.png`);
     umidade.innerHTML = data.main.humidity+"%";
     windSpeed.innerHTML = data.wind.speed+" km/h";
-};
+
+    barra_pesquisa.classList.remove();
+    barra_pesquisa.classList = "pesquisa-local";
+
+    container.classList.remove();
+    container.classList = "container";
+}; 
 
 // Eventos
 
