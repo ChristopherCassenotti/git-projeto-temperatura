@@ -16,3 +16,4 @@ Como fazer?
 	Conectar o vs code com gin hub para salvar o projeto.
 	Produzir o html, css e js da página.
 	Ligar a página com os dados em tempo real para que apereça nos gráficos.
+tentando arrumar
